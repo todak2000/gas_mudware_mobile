@@ -16,8 +16,7 @@ export default function Form({route, navigation}) {
         </TouchableOpacity>
         <View style={styles.logoDiv}>
           <LogoHeader color={route.params.color}/>
-          {route.params.color == "#4473B7"? <Text style={styles.headerTextBlue}>Water-based Mud</Text>
-          :<Text style={styles.headerTextYellow}>Gas Viscosity</Text> }
+          <Text style={styles.headerTextYellow}>Gas Viscosity</Text>
         </View>
           {
             showResult ? 
@@ -127,10 +126,10 @@ export default function Form({route, navigation}) {
       flex: 1,
       backgroundColor:"#fff",
       padding:"10%",
-      paddingTop:"15%"
+      paddingTop:"10%"
     },
     logoDiv:{
-      marginTop:"15%",
+      marginTop:"5%",
       display:"flex",
       flexDirection:"column",
       justifyContent:"center",
@@ -146,14 +145,14 @@ export default function Form({route, navigation}) {
       height:"70%",
     },
     topTextDiv:{
-      marginTop:"15%",
+      marginTop:"5%",
       display:"flex",
       flexDirection:"row",
       alignContent:"center",
       alignItems:"center"
     },
    topText:{
-      fontSize:15,
+      fontSize:13,
       color: "#061428",
       marginLeft:20,
     },
@@ -168,7 +167,7 @@ export default function Form({route, navigation}) {
     },
     buttonContainer: {
       width:"70%",
-      marginTop:35,
+      marginTop:30,
       height:60,
       backgroundColor:"#4473B7",
       borderRadius: 5,
@@ -180,7 +179,7 @@ export default function Form({route, navigation}) {
     },
     buttonContainerYellow: {
       width:"70%",
-      marginTop:35,
+      marginTop:30,
       height:60,
       backgroundColor:"#B7447B",
       borderRadius: 5,
@@ -192,7 +191,7 @@ export default function Form({route, navigation}) {
     },
     buttonContainerAsh: {
       width:"70%",
-      marginTop:35,
+      marginTop:30,
       height:60,
       backgroundColor:"#E5E5E5",
       borderRadius: 5,
@@ -208,8 +207,8 @@ export default function Form({route, navigation}) {
       fontSize: 16,
     },
     formText:{
-      fontSize: 18,
-      marginTop:20
+      fontSize: 15,
+      marginTop:15
     },
     formInput:{
       backgroundColor: "#FFFFFF",
@@ -219,13 +218,13 @@ export default function Form({route, navigation}) {
       height: 60,
       padding:10,
       paddingLeft: 30,
-      fontSize: 20,
+      fontSize: 18,
       color:"#818181",
       marginTop:10
     },
     switchText:{
       color:"#818181",
-      fontSize: 16,
+      fontSize: 14,
       textAlign:"center",
       marginTop:30
     },

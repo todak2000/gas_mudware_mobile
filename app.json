@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gas_mudware_mobile",
-    "slug": "gas_mudware_mobile",
+    "name": "ng_viscosity_mobile",
+    "slug": "ng_viscosity_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.todak2000.gas_mudware_mobile"
+      "package": "com.todak2000.ng_viscosity_mobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
